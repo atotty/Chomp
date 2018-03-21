@@ -112,7 +112,6 @@ public class Chomp4by7Strategy implements Strategy
         // Choose a random element from the list:
         if ( list.size() == 0 )
         {
-            System.out.println("here");
             return new Location( 0, 0 );
         }
         else
