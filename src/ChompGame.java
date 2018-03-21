@@ -3,7 +3,7 @@ public class ChompGame extends CharMatrix {
     private char fill = '@';
     
     public ChompGame() {
-        super(4,7);    
+        super(4,7,'@');    
     }
     
     public void applyMove(Location loc) {
